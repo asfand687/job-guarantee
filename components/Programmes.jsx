@@ -1,0 +1,43 @@
+import Link from 'next/link'
+import { FiArrowRight } from 'react-icons/fi'
+
+const Programmes = () => {
+	return (
+		<section>
+			<div className='w-9/12 mx-auto pt-12 text-gray-800'>
+				<h2 className='text-4xl tracking-tight font-bold'>
+					Choose a program <br /> and transform your career
+				</h2>
+				<p className='pt-6 text-xl tracking-normal leading-7'>
+					Our programs will teach you everything you need to get <br /> your
+					first job in tech in as little as 5 months--even if you <br /> don't
+					have any previous experiences.
+				</p>
+				<section className='w-full pt-12'>
+					<article className='p-8 bg-purple-600 w-card rounded-md'>
+						<h3 className='bg-black inline-block text-white p-1 uppercase tracking-tight'>
+							Job Guarantee
+						</h3>
+						<h2 className='text-3xl font-bold text-white pt-2 pb-4 tracking-tight'>
+							UI Design
+						</h2>
+						<p className='text-white leading-5 pb-6 font-medium'>
+							Make the web beautiful. Learn to design a complete application
+							from scratch.
+						</p>
+						<div>
+							<Link href='#'>
+								<a className='bg-gray-300 p-3 rounded-md inline-flex items-center'>
+									<span className='tracking-tight'>View Program</span>
+									<FiArrowRight />
+								</a>
+							</Link>
+						</div>
+					</article>
+				</section>
+			</div>
+		</section>
+	)
+}
+
+export default Programmes
