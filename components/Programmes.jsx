@@ -14,7 +14,7 @@ const Programmes = () => {
 					first job in tech in as little as 5 months--even if you <br /> don't
 					have any previous experiences.
 				</p>
-				<section className='w-screen pt-12 relative after:bg-gray-200 after:w-full after:h-80 after:absolute after:top-32 after:right-80 after:z-0'>
+				<section className='pt-12 relative after:bg-gray-200 after:w-full after:h-80 after:absolute after:top-32 after:right-80 after:z-0'>
 					<div className='z-10 relative'>
 						<article className='p-8 bg-purple-600 w-4/5 max-w-xl rounded-md mb-12'>
 							<h3 className='bg-black inline-block text-white p-1 uppercase tracking-tight'>
@@ -36,7 +36,7 @@ const Programmes = () => {
 								</Link>
 							</div>
 						</article>
-						<Blockquote width='w-2/3 max-w-3xl' small />
+						<Blockquote width='w-full lg:w-2/3 max-w-3xl' small />
 					</div>
 				</section>
 			</div>
