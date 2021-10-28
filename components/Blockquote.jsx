@@ -8,7 +8,7 @@ import ButtonOutline from './ButtonOutline'
 const Blockquote = ({ width, small }) => {
 	return small ? (
 		<div
-			className={`bg-white rounded-md shadow-2xl ${width} p-12 border-l-8 border-gray-900 block-quote`}
+			className={`bg-white rounded-md shadow-2xl ${width} p-4 md:p-12 border-l-8 border-gray-900 block-quote`}
 		>
 			<article className='flex pb-4 items-center'>
 				<FaRibbon size={'50px'} />
