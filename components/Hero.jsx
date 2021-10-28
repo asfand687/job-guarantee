@@ -4,31 +4,30 @@ import { HiOutlineShieldCheck } from 'react-icons/hi'
 import { HiOutlineDesktopComputer } from 'react-icons/hi'
 import { HiOutlineShare } from 'react-icons/hi'
 import HeroImg from '../public/hero.svg'
+import ButtonOutline from './ButtonOutline'
 
 const Hero = () => {
 	return (
-		<section className='w-9/12 mx-auto flex justify-between relative'>
-			<article className='w-1/2 pt-28 text-white'>
-				<h2 className='text-5xl font-extrabold pb-6'>
-					Build a career you love
-				</h2>
-				<h3 className='text-3xl font-bold tracking-tight mb-4'>
-					Become a UX designer, UI designer, web <br /> developer, or data
-					analyst from scratch
-				</h3>
-				<Link href='#'>
-					<a className='border-2 border-white p-3 inline-block rounded-md'>
-						Find the right program for you
-					</a>
-				</Link>
-			</article>
-			<article className='w-1/2'>
-				<Image src={HeroImg} width={512} height={580} />
-			</article>
-			<article
-				className='absolute bg-white w-4xl p-8 shadow-xl flex justify-end space-x-12 rounded-sm'
-				style={{ bottom: '0px' }}
-			>
+		<section>
+			<div className='w-9/12 mx-auto flex flex-col lg:flex-row justify-between'>
+				<article className='flex-1 pt-28 text-white'>
+					<h2 className='text-5xl font-extrabold pb-6'>
+						Build a career you love
+					</h2>
+					<h3 className='text-3xl font-bold tracking-tight mb-4'>
+						Become a UX designer, UI designer, web <br /> developer, or data
+						analyst from scratch
+					</h3>
+					<ButtonOutline
+						text='Find the right program for you'
+						border='border-white'
+					/>
+				</article>
+				<article className='flex-1 hidden lg:block'>
+					<Image src={HeroImg} width={512} height={520} />
+				</article>
+			</div>
+			<article className='hidden bg-white w-4xl mx-auto p-8 shadow-xl lg:flex justify-end space-x-12 rounded-sm'>
 				<div className='flex items-center'>
 					<HiOutlineDesktopComputer size={'50px'} color={'#333'} />
 					<div className='pl-4 text-xl'>

@@ -5,9 +5,12 @@ module.exports = {
 	theme: {
 		extend: {
 			height: {
-				'2xl': '90vh',
+				'2xl': '80vh',
+				'3xl': '90vh',
+				'4xl': '180vh',
 			},
 			width: {
+				'block-quote': '650px',
 				card: '500px',
 				'4xl': '1000px',
 			},
