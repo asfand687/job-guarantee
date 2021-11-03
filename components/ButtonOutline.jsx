@@ -6,7 +6,7 @@ const ButtonOutline = ({ text, icon, border }) => {
 			<a
 				className={`border-2 ${border} p-3 inline-flex items-center rounded-md`}
 			>
-				<span className='tracking-tighter text-sm'>{text}</span>{' '}
+				<span className='tracking-tighter text-sm lg:text-xl'>{text}</span>{' '}
 				{icon ? icon : null}
 			</a>
 		</Link>
