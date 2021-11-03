@@ -32,7 +32,7 @@ const Blockquote = ({ width, small }) => {
 					A fair and accessible <br />{' '}
 					<span className='pt-2 inline-block'>Job Guarantee</span>
 				</h2>
-				<p className='tracking-tight font-light text-lg pb-4'>
+				<p className='tracking-tight font-light text-lg pb-8'>
 					We understand that changing careers is a big step. And we're confident
 					you can make it. That's why our programs come with a guarantee. Simply
 					put, you'll get a job within 6 months of graduating, or you'll get
