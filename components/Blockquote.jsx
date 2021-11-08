@@ -25,7 +25,7 @@ const Blockquote = ({ width, small }) => {
 		</div>
 	) : (
 		<div
-			className={`bg-white rounded-md shadow-2xl ${width} p-16 border-l-8 border-gray-900 block-quote flex`}
+			className={`bg-white rounded-md shadow-2xl ${width} p-4 py-6 md:p-16 border-l-8 border-gray-900 block-quote flex`}
 		>
 			<article className='flex-1'>
 				<h2 className='text-4xl font-bold tracking-tight text-gray-700 pb-4'>

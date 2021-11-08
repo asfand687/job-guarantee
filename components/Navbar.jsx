@@ -9,25 +9,24 @@ const Navbar = () => {
 		<nav className='px-4'>
 			<div className='w-full lg:max-w-7xl p-4 mx-auto flex items-center justify-between text-white'>
 				<div className='flex items-center'>
-					<div className='pr-8 text-2xl font-bold font-mono'>Job Guarantee</div>
+					<div className='pr-8 text-2xl font-bold font-mono'>
+						<Link href='/'>
+							<a>Job Guarantee</a>
+						</Link>
+					</div>
 					<ul className='hidden lg:flex space-x-8'>
 						<li>
-							<a href='#'>Courses</a>
+							<Link href='/WebDevelopmentCourse'>Web Development Course</Link>
 						</li>
 						<li>
-							<a href='#'>How it works</a>
+							<Link href='/HowItWorks'>
+								<a>How it works</a>
+							</Link>
 						</li>
 						<li>
-							<a href='#'>Meet our mentors</a>
-						</li>
-						<li>
-							<a href='#'>Graduate outcomes</a>
-						</li>
-						<li>
-							<a href='#'>Online events</a>
-						</li>
-						<li>
-							<a href='#'>Blog</a>
+							<Link href='/WebDevCurriculum'>
+								<a>Web Development Curriculum</a>
+							</Link>
 						</li>
 					</ul>
 					<ul
@@ -45,34 +44,20 @@ const Navbar = () => {
 						</header>
 						<div className='text-gray-800 space-y-6 uppercase font-bold pt-4'>
 							<li className='border-b border-gray-400 pl-2 pb-2'>
-								<Link href='#'>
-									<a>Courses</a>
-								</Link>
+							<Link href='/'>Home</Link>
 							</li>
 							<li className='border-b border-gray-400 pl-2 pb-2'>
-								<Link href='#'>
-									<a>How it works</a>
-								</Link>
+							<Link href='/WebDevelopmentCourse'>Web Development Course</Link>
 							</li>
 							<li className='border-b border-gray-400 pl-2 pb-2'>
-								<Link href='#'>
-									<a>Meet our mentors</a>
-								</Link>
+							<Link href='/HowItWorks'>
+								<a>How it works</a>
+							</Link>
 							</li>
 							<li className='border-b border-gray-400 pl-2 pb-2'>
-								<Link href='#'>
-									<a>Graduate outcomes</a>
-								</Link>
-							</li>
-							<li className='border-b border-gray-400 pl-2 pb-2'>
-								<Link href='#'>
-									<a>Online events</a>
-								</Link>
-							</li>
-							<li className='border-b border-gray-400 pl-2 pb-2'>
-								<Link href='#'>
-									<a>Blog</a>
-								</Link>
+							<Link href='/WebDevCurriculum'>
+								<a>Web Development Curriculum</a>
+							</Link>
 							</li>
 						</div>
 					</ul>

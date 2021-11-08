@@ -17,8 +17,8 @@ export default function Home() {
 			</Head>
 
 			<main>
-				<section className='h-2xl relative after:bg-purple-900 after:w-full after:h-[95vh] after:absolute after:top-0 after:left-0 after:z-0'>
-					<div className='relative z-10'>
+				<section className='md:h-2xl relative md:after:bg-purple-900 after:w-full md:after:h-[95vh] md:after:absolute md:after:top-0 md:after:left-0 md:after:z-0'>
+					<div className='relative z-10 bg-purple-900 md:bg-transparent pb-8'>
 						<Navbar />
 						<Hero
 							grid

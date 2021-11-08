@@ -162,7 +162,7 @@ const Footer = () => {
 					</article>
 				</div>
 				<div className='w-full flex flex-col lg:flex-row items-center justify-between text-white pt-12'>
-					<article className='flex space-x-2 '>
+					<article className='hidden md:flex space-x-2 '>
 						<Link href='#'>
 							<a className='text-xs uppercase border-r-2 border-white pr-1  font-bold tracking-tight'>
 								Terms and Conditions

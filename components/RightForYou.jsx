@@ -34,7 +34,7 @@ const RightForYou = () => {
 					</p>
 				</article>
 				<article className=' bg-white shadow-xl p-8 text-center'>
-					<p className='leading-[3rem]'>
+					<p className='leading-[3rem] font-medium'>
 						Curious about a Job Guarantee program?
 					</p>
 					<p>Contact us to find out which one is right for you</p>
@@ -50,7 +50,9 @@ const RightForYou = () => {
 					<p className='leading-[3rem]'>
 						“I’m here to help you get where you want to go”
 					</p>
-					<p>Alana, Senior Program Advisor</p>
+					<p className='text-base text-gray-400 font-medium'>
+						Alana, Senior Program Advisor
+					</p>
 					<button className='inline-flex mt-4 bg-red-500 w-full justify-center py-2 font-bold rounded text-white hover:opacity-90'>
 						Send me a message
 					</button>

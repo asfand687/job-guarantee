@@ -1,13 +1,16 @@
 import React from 'react'
 import Head from 'next/head'
+import Image from 'next/image'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Programmer from '../public/programmer.jpg'
 import Timeline from '../components/Timeline'
 import OurCurriculum from '../components/OurCurriculum'
-import JobGuarantee from '../components/JobGuarantee'
+import TextGrid from '../components/TextGrid'
 import RightForYou from '../components/RightForYou'
+import { jobGuaranteeGridData } from '../data/data'
+import Discussion from '../public/discussion.jpg'
 
 const HowItWorks = () => {
 	return (
@@ -17,8 +20,8 @@ const HowItWorks = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main>
-				<section className='relative after:bg-purple-900 after:w-full after:h-2xl after:absolute after:top-0 after:left-0 after:z-0'>
-					<div className='relative z-10'>
+				<section className='relative md:after:bg-purple-900 md:after:w-full md:after:h-[80vh] md:after:absolute md:after:top-0 md:after:left-0 md:after:z-0'>
+					<div className='relative z-10 py-4 md:py-2 bg-purple-900 md:bg-transparent'>
 						<Navbar />
 						<Hero
 							heading='How it works'
@@ -37,7 +40,11 @@ const HowItWorks = () => {
 					</div>
 					<Timeline />
 					<OurCurriculum />
-					<JobGuarantee />
+					<TextGrid
+						gridTextData={jobGuaranteeGridData}
+						img={<Image className='h-full flex-1' src={Discussion} />}
+						small
+					/>
 					<RightForYou />
 					<Footer />
 				</section>
