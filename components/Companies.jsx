@@ -11,7 +11,7 @@ import VisaLogo from '../public/visa.png'
 const Companies = () => {
 	return (
 		<div className='text-center pt-24 flex flex-col items-center'>
-			<p className='font-light text-lg pb-8'>
+			<p className='font-light px-4 text-lg pb-8'>
 				Our graduates now have tech jobs all over the world
 			</p>
 			<div className='w-9/12 flex items-center justify-around space-x-4'>
