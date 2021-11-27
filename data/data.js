@@ -19,7 +19,7 @@ export const homeInfoGrid = [
 	{
 		id: 1,
 		icon: <HiOutlineShieldCheck size={'50px'} color='#333' />,
-		heading: 'Learn Online',
+		heading: 'One on One Learning',
 		text: 'at a flexible pace',
 	},
 	{

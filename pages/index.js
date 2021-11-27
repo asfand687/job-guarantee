@@ -31,8 +31,7 @@ export default function Home() {
 							heading='Build a career you love'
 							text={
 								<p className='text-3xl font-bold tracking-tight mb-4'>
-									Become a UX designer, UI designer, web <br /> developer, or
-									data analyst from scratch
+									Become a Fullstack Web Developer from Scratch.
 								</p>
 							}
 							image={HeroImg}
