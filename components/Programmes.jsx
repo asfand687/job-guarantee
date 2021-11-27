@@ -7,10 +7,10 @@ const Programmes = () => {
 		<section>
 			<div className='w-full px-4 md:w-9/12 mx-auto pt-12 text-gray-800'>
 				<h2 className='text-4xl tracking-tight font-bold'>
-					Choose a program <br /> and transform your career
+					A program that can <br /> transform your career
 				</h2>
 				<p className='pt-6 text-xl tracking-normal leading-7 text-justify md:text-left'>
-					Our programs will teach you everything you need to get <br /> your
+					Our program will teach you everything you need to get <br /> your
 					first job in tech in as little as 5 months--even if you <br /> don't
 					have any previous experiences.
 				</p>
@@ -21,15 +21,15 @@ const Programmes = () => {
 								Job Guarantee
 							</h3>
 							<h2 className='text-3xl font-bold text-white pt-2 pb-4 tracking-tight'>
-								UI Design
+								Full Stack Web Development
 							</h2>
 							<p className='text-white leading-5 pb-6 font-medium'>
-								Make the web beautiful. Learn to design a complete application
-								from scratch.
+								Make the web beautiful. Learn to design and develop a complete
+								application from scratch.
 							</p>
 							<div>
 								<Link href='#'>
-									<a className='bg-gray-300 p-3 rounded-md inline-flex items-center'>
+									<a className='bg-gray-300 p-3 rounded-md inline-flex items-center hover:opacity-80'>
 										<span className='tracking-tight'>View Program</span>
 										<FiArrowRight />
 									</a>

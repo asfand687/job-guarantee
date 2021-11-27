@@ -7,7 +7,7 @@ const InfoGrid = ({ data }) => {
 				<div key={data.id} className='flex items-center'>
 					{item.icon}
 					<div className='pl-4 text-xl'>
-						<h3 className='font-medium text-gray-600 tracking-tight'>
+						<h3 className='font-medium text-lg text-gray-600 tracking-tight'>
 							{item.heading}
 						</h3>
 						<p className='font-light'>{item.text}</p>
