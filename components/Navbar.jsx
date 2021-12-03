@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
+import Logo from '../public/logo.svg'
 import { FaBars } from 'react-icons/fa'
 import { FaTimes } from 'react-icons/fa'
 
@@ -11,7 +13,9 @@ const Navbar = () => {
 				<div className='flex items-center'>
 					<div className='pr-8 text-2xl font-bold font-mono'>
 						<Link href='/'>
-							<a>Job Guarantee</a>
+							<a>
+								<Image src={Logo} width={130} height={60} alt='Logo Image' />
+							</a>
 						</Link>
 					</div>
 					<ul className='hidden lg:flex space-x-8'>
@@ -26,6 +30,11 @@ const Navbar = () => {
 						<li>
 							<Link href='/WebDevCurriculum'>
 								<a>Web Development Curriculum</a>
+							</Link>
+						</li>
+						<li>
+							<Link href='/ContactUs'>
+								<a>Contact Us</a>
 							</Link>
 						</li>
 					</ul>
@@ -44,20 +53,27 @@ const Navbar = () => {
 						</header>
 						<div className='text-gray-800 space-y-6 uppercase font-bold pt-4'>
 							<li className='border-b border-gray-400 pl-2 pb-2'>
-							<Link href='/'>Home</Link>
+								<Link href='/'>
+									<a>Home</a>
+								</Link>
 							</li>
 							<li className='border-b border-gray-400 pl-2 pb-2'>
-							<Link href='/WebDevelopmentCourse'>Web Development Course</Link>
+								<Link href='/WebDevelopmentCourse'>Web Development Course</Link>
 							</li>
 							<li className='border-b border-gray-400 pl-2 pb-2'>
-							<Link href='/HowItWorks'>
-								<a>How it works</a>
-							</Link>
+								<Link href='/HowItWorks'>
+									<a>How it works</a>
+								</Link>
 							</li>
 							<li className='border-b border-gray-400 pl-2 pb-2'>
-							<Link href='/WebDevCurriculum'>
-								<a>Web Development Curriculum</a>
-							</Link>
+								<Link href='/WebDevCurriculum'>
+									<a>Web Development Curriculum</a>
+								</Link>
+							</li>
+							<li className='border-b border-gray-400 pl-2 pb-2'>
+								<Link href='/ContactUs'>
+									<a>Contact Us</a>
+								</Link>
 							</li>
 						</div>
 					</ul>
