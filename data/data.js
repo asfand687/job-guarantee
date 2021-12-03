@@ -14,6 +14,7 @@ import Member3 from '../public/member-3.png'
 import Member4 from '../public/member-4.png'
 import Member5 from '../public/member-5.png'
 import Member6 from '../public/member-6.png'
+import Link from 'next/link'
 
 export const homeInfoGrid = [
 	{
@@ -331,5 +332,93 @@ export const teamData = [
 				icon: <FaInstagram />,
 			},
 		],
+	},
+]
+
+export const faqData = [
+	{
+		title: 'Are there payment plans available?',
+		content: `Yes, we offer two payment options. You can save 5% of your total tuition by paying it upfront. Alternatively, you can pay a set amount upfront to reserve your place in the program, and the remainder in 3 monthly payments.
+		Still not feasible for you? Book a call with a program advisor to see if you’re eligible for a customized payment plan.
+		`,
+	},
+	{
+		title: 'Does Job guarantee offer full or partial scholarships?',
+		content:
+			'Currently, we do not offer any full scholarships or funds at this time.',
+	},
+	{
+		title: 'Are there eligibility requirements for the job guarantee?',
+		content: (
+			<>
+				<p>
+					There are conditions that graduates need to meet to be eligible for
+					the job guarantee. We’re transparent about these requirements because
+					we want them to be easy for you to follow and because we know they
+					genuinely. help graduates succeed in their job search.
+				</p>
+				<p>You’re eligible for the job guarantee when:</p>
+				<ul className='leading-7 list-disc pl-6'>
+					<li className='ml-4'>
+						You’ve completed a 100% Web development program
+					</li>
+					<li className='ml-4'>
+						You’re applying to at least five relevant jobs a week.
+					</li>
+				</ul>
+			</>
+		),
+	},
+	{
+		title: 'Is the program 100% online?',
+		content: 'No, the program is entirely on-campus.',
+	},
+	{
+		title: 'Do I get a certificate at the end?',
+		content:
+			'Yes, you will receive a certificate when you complete the program. ',
+	},
+	{
+		title: 'What kind of job can I get after the program?',
+		content: (
+			<>
+				<ul>
+					<p>
+						<strong>
+							Based on the program’s comprehensive curriculum, you’ll be ready
+							to apply for these roles:
+						</strong>
+					</p>
+					<ul className='list-disc ml-8 mt-2'>
+						<li>Junior web developer</li>
+						<li>Web Developer</li>
+						<li>Frontend Developer</li>
+						<li>Full-stack Developer</li>
+					</ul>
+				</ul>
+			</>
+		),
+	},
+	{
+		title: 'How long does the program take to complete',
+		content: 'The program can be completed within a 3-month duration. ',
+	},
+	{
+		title: 'Is Web Development is a secure career choice?',
+		content: (
+			<p>
+				Yes, Web Development is a burgeoning field with a large number of
+				opportunites available if you are skilled.
+				<Link href='https://careerfoundry.com/en/blog/web-development/what-does-it-take-to-become-a-web-developer-everything-you-need-to-know-before-getting-started/#is-now-a-good-time-to-become-a-web-developer-2021-update'>
+					<a
+						target='_blank'
+						className='font-bold text-blue-500 uppercase hover:opacity-80'
+					>
+						{' '}
+						Learn More
+					</a>
+				</Link>
+			</p>
+		),
 	},
 ]

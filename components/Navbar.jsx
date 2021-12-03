@@ -20,12 +20,12 @@ const Navbar = () => {
 					</div>
 					<ul className='hidden lg:flex space-x-8'>
 						<li>
-							<Link href='/WebDevelopmentCourse'>Web Development Course</Link>
-						</li>
-						<li>
 							<Link href='/HowItWorks'>
 								<a>How it works</a>
 							</Link>
+						</li>
+						<li>
+							<Link href='/WebDevelopmentCourse'>Web Development Course</Link>
 						</li>
 						<li>
 							<Link href='/WebDevCurriculum'>
@@ -39,7 +39,7 @@ const Navbar = () => {
 						</li>
 					</ul>
 					<ul
-						className={`fixed h-screen w-72 bg-white shadow-2xl pt-4 px-4  top-0 left-0 transform ${
+						className={`fixed h-screen w-72 bg-white shadow-2xl pt-4 px-4 top-0 left-0 z-[1000] transform ${
 							showDrawer ? 'translate-x-0' : '-translate-x-full'
 						} z-20 lg:hidden transition-all duration-300 ease-linear tex-gray-800`}
 					>
@@ -58,12 +58,12 @@ const Navbar = () => {
 								</Link>
 							</li>
 							<li className='border-b border-gray-400 pl-2 pb-2'>
-								<Link href='/WebDevelopmentCourse'>Web Development Course</Link>
-							</li>
-							<li className='border-b border-gray-400 pl-2 pb-2'>
 								<Link href='/HowItWorks'>
 									<a>How it works</a>
 								</Link>
+							</li>
+							<li className='border-b border-gray-400 pl-2 pb-2'>
+								<Link href='/WebDevelopmentCourse'>Web Development Course</Link>
 							</li>
 							<li className='border-b border-gray-400 pl-2 pb-2'>
 								<Link href='/WebDevCurriculum'>

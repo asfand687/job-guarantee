@@ -15,7 +15,7 @@ const Programmes = () => {
 					have any previous experiences.
 				</p>
 				<section className='pt-12 relative md:after:bg-gray-200 after:w-full after:h-80 after:absolute after:top-32 after:right-80 after:z-0'>
-					<div className='z-10 relative'>
+					<div className='relative z-[5]'>
 						<article className='p-8 bg-purple-600 w-full max-w-xl rounded-md mb-12'>
 							<h3 className='bg-black inline-block text-white p-1 uppercase tracking-tight'>
 								Job Guarantee

@@ -6,6 +6,7 @@ import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Programmes from '../components/Programmes'
 import ButtonOutline from '../components/ButtonOutline'
+import FrequentQuestions from '../components/FrequentQuestions'
 import HeroImg from '../public/hero.svg'
 
 export default function Home() {
@@ -45,6 +46,7 @@ export default function Home() {
 					<Companies />
 					<Programmes />
 					<Curriculum />
+					<FrequentQuestions />
 					<Footer />
 				</section>
 			</main>
