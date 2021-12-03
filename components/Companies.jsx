@@ -6,11 +6,11 @@ import Zameen from '../public/zameen.svg'
 
 const Companies = () => {
 	return (
-		<div className='text-center pt-24 flex flex-col items-center'>
+		<div className='text-center pt-4 flex flex-col items-center'>
 			<p className='font-light px-4 text-lg pb-8'>
 				Our graduates now have tech jobs all over the world
 			</p>
-			<div className='w-2/3 flex items-center justify-around'>
+			<div className='w-full px-4 max-w-6xl flex items-center justify-around'>
 				<article className='filter grayscale'>
 					<Image src={Zameen} width={130} height={65} alt='Zameen' />
 				</article>

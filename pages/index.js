@@ -6,6 +6,7 @@ import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Programmes from '../components/Programmes'
 import ButtonOutline from '../components/ButtonOutline'
+import FrequentQuestions from '../components/FrequentQuestions'
 import HeroImg from '../public/hero.svg'
 
 export default function Home() {
@@ -17,7 +18,10 @@ export default function Home() {
 			</Head>
 
 			<main>
-				<section className='md:h-2xl relative md:after:bg-purple-900 after:w-full md:after:h-[95vh] md:after:absolute md:after:top-0 md:after:left-0 md:after:z-0'>
+				<section
+					className='md:h-2xl relative md:after:bg-purple-900 after:w-full md:after:h-[110%] 
+				md:after:absolute md:after:top-0 md:after:left-0 md:after:z-0'
+				>
 					<div className='relative z-10 bg-purple-900 md:bg-transparent pb-8'>
 						<Navbar />
 						<Hero
@@ -42,6 +46,7 @@ export default function Home() {
 					<Companies />
 					<Programmes />
 					<Curriculum />
+					<FrequentQuestions />
 					<Footer />
 				</section>
 			</main>
