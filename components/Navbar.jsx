@@ -79,9 +79,6 @@ const Navbar = () => {
 					</ul>
 				</div>
 				<div className='flex items-center space-x-4 lg:block'>
-					<Link href='#'>
-						<a>Login</a>
-					</Link>
 					<div className='lg:hidden cursor-pointer'>
 						<div onClick={() => setShowDrawer(!showDrawer)}>
 							<FaBars size={25} />
