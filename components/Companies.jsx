@@ -11,17 +11,17 @@ const Companies = () => {
 				Our graduates now have tech jobs all over the world
 			</p>
 			<div className='w-full px-4 max-w-6xl flex items-center justify-around'>
-				<article className='filter grayscale'>
+				<article>
 					<Image src={Zameen} width={130} height={65} alt='Zameen' />
 				</article>
 
-				<article className='filter grayscale'>
+				<article>
 					<Image src={Olx} width={130} height={90} alt='Olx' />
 				</article>
-				<article className='filter grayscale'>
+				<article>
 					<Image src={Airlift} width={130} height={65} alt='Air Lift' />
 				</article>
-				<article className='filter grayscale'>
+				<article>
 					<Image src={Cheetay} width={130} height={35} alt='Netflix' />
 				</article>
 			</div>
