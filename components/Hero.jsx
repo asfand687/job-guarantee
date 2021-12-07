@@ -14,12 +14,13 @@ const Hero = ({
 	imgWidth,
 	imgHeight,
 	imgRounded,
+	padding,
 }) => {
 	return (
 		<section>
 			<div className='w-full max-w-7xl mx-auto px-6 flex flex-col lg:flex-row justify-between'>
-				<article className='flex-1  pt-12 md:pt-28 text-white'>
-					<h2 className='text-4xl md:text-5xl font-extrabold pb-6'>
+				<article className={`flex-1 ${padding} text-white`}>
+					<h2 className='text-4xl md:text-5xl tracking-wide font-extrabold pb-6'>
 						{heading}
 					</h2>
 					{text}
@@ -39,7 +40,7 @@ const Hero = ({
 					/>
 				</article>
 			</div>
-			{grid && <InfoGrid data={homeInfoGrid} />}
+			{grid && <InfoGrid key={1} data={homeInfoGrid} />}
 		</section>
 	)
 }

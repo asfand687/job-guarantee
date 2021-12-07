@@ -37,6 +37,11 @@ const Navbar = () => {
 								<a>Contact Us</a>
 							</Link>
 						</li>
+						<li>
+							<Link href='/Faq'>
+								<a>FAQs</a>
+							</Link>
+						</li>
 					</ul>
 					<ul
 						className={`fixed h-screen w-72 bg-white shadow-2xl pt-4 px-4 top-0 left-0 z-[1000] transform ${
@@ -73,6 +78,11 @@ const Navbar = () => {
 							<li className='border-b border-gray-400 pl-2 pb-2'>
 								<Link href='/ContactUs'>
 									<a>Contact Us</a>
+								</Link>
+							</li>
+							<li className='border-b border-gray-400 pl-2 pb-2'>
+								<Link href='/Faq'>
+									<a>FAQs</a>
 								</Link>
 							</li>
 						</div>

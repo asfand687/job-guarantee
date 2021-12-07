@@ -25,7 +25,7 @@ const RightForYou = ({ removeContact }) => {
 						</li>
 						<li>
 							If Web Development is the best fit for you based on your
-							background and interests
+							background and interests.
 						</li>
 						.
 					</ul>

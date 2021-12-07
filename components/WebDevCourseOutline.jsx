@@ -11,7 +11,7 @@ import Programmer from '../public/programmer.jpg'
 
 const WebDevCourseOutline = () => {
 	return (
-		<section className='bg-white md:bg-gray-300 py-10'>
+		<section className='bg-white md:bg-gray-300 pt-10 pb-2'>
 			<div className='w-full max-w-[900px] mx-auto space-y-12 text-center md:text-left'>
 				<article className='px-6 md:px-0'>
 					<h3 className='text-2xl font-medium pb-12 px-4'>

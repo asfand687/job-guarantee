@@ -21,7 +21,7 @@ const WebDevCurriculum = () => {
 				</nav>
 				<WebDevCurriculumHero />
 				<WebDevCourseOutline />
-				<RightForYou />
+				<RightForYou removeContact />
 				<Footer />
 			</main>
 		</div>
