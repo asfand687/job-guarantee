@@ -48,7 +48,7 @@ const WebDevelopmentCourse = () => {
 										</div>
 										<div>
 											<p className='font-semibold'>Become a web developer</p>
-											<p>in under 7 months</p>
+											<p>in under 4 months</p>
 										</div>
 									</article>
 									<article className='flex md:justify-end space-x-4 items-center'>
@@ -56,7 +56,7 @@ const WebDevelopmentCourse = () => {
 											<FiMonitor />
 										</div>
 										<div>
-											<p className='font-semibold'>Learn flexibly online</p>
+											<p className='font-semibold'>Learn On-campus</p>
 											<p>without having to quit your job</p>
 										</div>
 									</article>
@@ -92,10 +92,12 @@ const WebDevelopmentCourse = () => {
 							<div className='text-5xl text-gray-600 flex justify-center'>
 								<MdMonitor />
 							</div>
-							<h2 className='text-gray-700 font-semibold py-4'>Fully Online</h2>
+							<h2 className='text-gray-700 font-semibold py-4'>
+								Fully On-campus
+							</h2>
 							<p className='max-w-[250px] mx-auto'>
 								4 months at 30-40 hours/week or up to 7 months at 15-20
-								hours/week
+								hours/week.
 							</p>
 						</article>
 						<article>
@@ -104,8 +106,8 @@ const WebDevelopmentCourse = () => {
 							</div>
 							<h2 className='text-gray-700 font-semibold py-4'>Mentorship</h2>
 							<p className='max-w-[250px] mx-auto'>
-								Our web development mentors are rated 4.84/5 from over 6000
-								student reviews.
+								Our web development mentors are highly qualified, experienced
+								and senior professionals.
 							</p>
 						</article>
 						<article>
@@ -116,7 +118,7 @@ const WebDevelopmentCourse = () => {
 								Career Support
 							</h2>
 							<p className='max-w-[250px] mx-auto'>
-								Free job preparation course and expert career coaching included
+								Free expert career coaching.
 							</p>
 						</article>
 					</div>
@@ -140,9 +142,8 @@ const WebDevelopmentCourse = () => {
 					containImg
 					reverse
 					bgLight
-					containImg='h-[565px]'
+					containImg='h-[485px]'
 				/>
-				<AdmissionCriteria />
 				<Pricing />
 				<Footer />
 			</main>
