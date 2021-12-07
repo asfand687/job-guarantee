@@ -143,9 +143,8 @@ const WebDevCourseOutline = () => {
 							Requirements
 						</h2>
 						<ul className='list-disc space-y-6 text-lg font-light'>
-							<li className='ml-8'>A2 level in written and spoken English</li>
+							<li className='ml-8'>16 Years of Education or Equivalent.</li>
 							<li className='ml-8'>A computer (Mac, PC or Linux)</li>
-							<li className='ml-8'>An internet connection</li>
 						</ul>
 					</div>
 				</article>

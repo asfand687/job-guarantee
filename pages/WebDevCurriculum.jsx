@@ -21,9 +21,8 @@ const WebDevCurriculum = () => {
 				</nav>
 				<WebDevCurriculumHero />
 				<WebDevCourseOutline />
-				<TeamSection />
 				<RightForYou />
-				<Footer/>
+				<Footer />
 			</main>
 		</div>
 	)

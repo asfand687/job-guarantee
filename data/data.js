@@ -146,20 +146,12 @@ export const whyJobGuaranteeGridData = [
 	},
 	{
 		id: 2,
-		heading: 'Human-centric learning',
 		big: false,
 		textLight: true,
 		paragraph:
-			'Our dual mentorship model ensures that you get all the support you need. You’ll have both a tutor—an experienced web developer responsible for evaluating your exercises within 24 hours of submission, and a mentor—a web development industry expert who gives detailed written, video, and on-call feedback on your portfolio pieces.',
+			'Our model ensures that you get all the support you need. You’ll have both a tutor-an experienced web developer responsible for evaluating your exercises, and a mentor-a web development industry expert who have a detailed One on One session with you.',
 	},
-	{
-		id: 3,
-		heading: 'Flexibility with accountability',
-		big: false,
-		textLight: true,
-		paragraph:
-			'Study at a flexible pace within the 7-month program duration, working a minimum of 15 hours per week. Your mentor, tutor, student advisor, and career specialist will help you stay on track and accountable.',
-	},
+
 	{
 		id: 4,
 		heading: 'Successful, satisfied graduates',

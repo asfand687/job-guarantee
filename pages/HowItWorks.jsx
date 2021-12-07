@@ -27,9 +27,10 @@ const HowItWorks = () => {
 							heading='How it works'
 							text={
 								<p className='text-2xl font-light tracking-tight mb-4 lg:pr-8'>
-									Whether you're forging a career in UX design, UI design, web
-									development, or data analytics - here's how a Job Guarantee
-									program will kickstart your caree-change journey.
+									Whether you're forging a career in the world of Frontend,
+									Backend or you are already a seasoned developer who wants to
+									go Fullstack - here's how a Job Guarantee program will
+									kickstart your career-change journey.
 								</p>
 							}
 							image={Programmer}
@@ -45,7 +46,7 @@ const HowItWorks = () => {
 						img={<Image className='h-full flex-1' src={Discussion} />}
 						small
 					/>
-					<RightForYou />
+					<RightForYou removeContact />
 					<Footer />
 				</section>
 			</main>

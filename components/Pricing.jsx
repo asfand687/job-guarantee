@@ -14,16 +14,12 @@ const Pricing = () => {
 				<h2 className='text-[2.5rem] tracking-tighter font-medium pb-2'>
 					Price and payment options
 				</h2>
-				<div className='py-1 border-l-[10px] pl-4 space-y-1 border-[#5CA2B2]'>
+				<div className='py-1 border-l-[10px] pl-4  border-[#5CA2B2]'>
 					<h3 className='text-white font-semibold font-xl'>
 						Next start dates:
 					</h3>
 					<div>
-						<p>Monday, November 15th, 2021 | Monday, November 29th, 2021 |</p>
-						<p>
-							Monday, December 13th, 2021 | Monday, January 10th, 2022 | Monday,
-						</p>
-						<p>January 24th, 2022 | Monday, February 7th, 2022</p>
+						<p>Monday, January 10th, 2021</p>
 					</div>
 				</div>
 				<div className='grid grid-cols-1 lg:grid-cols-3 gap-6 py-8'>
@@ -40,47 +36,14 @@ const Pricing = () => {
 										</div>
 									</header>
 									<div className='flex space-x-2 items-end text-gray-700 tracking-tighter py-8 border-b border-gray-700'>
-										<span className='line-through text-lg'>$7900</span>
-										<span className='text-5xl font-medium'>$7505</span>
+										<span className='line-through text-lg'>PKR 300,000</span>
+										<span className='text-5xl font-medium'>PKR 2,85,000</span>
 									</div>
 									<div className='text-gray-700 space-y-4 pt-4'>
 										<h2 className='font-medium text-3xl tracking-tighter'>
 											Pay upfront
 										</h2>
 										<p className='font-light'>Save 5% on your tuition.</p>
-									</div>
-								</div>
-								<div className='text-white pt-6'>
-									<ButtonOutline
-										text='Enroll now'
-										bg='bg-gray-700'
-										icon={<FiArrowRight />}
-										border='border-gray-700'
-										full
-									/>
-								</div>
-							</div>
-							<div className='p-6 rounded bg-white flex flex-col justify-between h-[380px] flex-1'>
-								<div>
-									<header className='flex space-x-2 text-white text-sm font-medium'>
-										<div className='uppercase inline-flex py-1 px-2 bg-[#1C7488]'>
-											Most Flexible
-										</div>
-									</header>
-									<div className='flex flex-col text-gray-700 tracking-tighter pt-8 border-b border-gray-700'>
-										<span className='text-5xl font-medium'>$7900</span>
-										<p className='text-xs pt-1 pb-3 tracking-wide'>
-											$1400 upfront, then $650 for 10 months
-										</p>
-									</div>
-									<div className='text-gray-700 space-y-4 pt-4'>
-										<h2 className='font-medium text-3xl tracking-tighter'>
-											Pay monthly
-										</h2>
-										<p className='font-light'>
-											Pay $1400 today to secure your place, and then $650 per
-											month for 10 months.
-										</p>
 									</div>
 								</div>
 								<div className='text-white pt-6'>

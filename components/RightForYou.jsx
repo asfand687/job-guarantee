@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Reception from '../public/girl-receptionist.jpg'
 
-const RightForYou = () => {
+const RightForYou = ({ removeContact }) => {
 	return (
 		<section className='bg-gray-100 text-gray-700 tracking-tight font-light'>
 			<div className='px-4 lg:px-2 w-full h-full max-w-[1040px] mx-auto flex flex-col text-center lg:text-left lg:flex-row text-lg py-10'>
@@ -11,29 +11,34 @@ const RightForYou = () => {
 						Find out if Job Guarantee is for you
 					</h2>
 					<p>
-						Take a free short course or get in touch with our program advisors
-						for a free consultation. Find out:
+						Take a free session or get in touch with our program advisors for a
+						free consultation.
 					</p>
 					<ul className='list-disc pl-6  lg:pl-8 space-y-2'>
 						<li>
-							How you can go from beginner to a designer or developer with a job
-							you love
+							If Full Stack Web Development is the best fit for you based on
+							your background and interests.
 						</li>
 						<li>
 							What the tech job market is like in your area and the salary you
-							can expect
+							can expect.
 						</li>
 						<li>
-							If UX design, UI design, data analytics or web development is the
-							best fit for you based on your background and interests
+							If Web Development is the best fit for you based on your
+							background and interests
 						</li>
+						.
 					</ul>
 					<p>
 						Don’t worry—you won’t be pressured into making a commitment. The
 						goal is to ensure you make a fully informed decision.
 					</p>
 				</article>
-				<article className=' bg-white shadow-xl p-8 text-center'>
+				<article
+					className={`${
+						removeContact ? 'hidden' : ''
+					} bg-white shadow-xl p-8 text-center`}
+				>
 					<p className='leading-[3rem] font-medium'>
 						Curious about a Job Guarantee program?
 					</p>
