@@ -37,6 +37,7 @@ const HowItWorks = () => {
 							imgWidth={530}
 							imgHeight={570}
 							imgRounded
+							padding='md:pt-12'
 						/>
 					</div>
 					<Timeline />

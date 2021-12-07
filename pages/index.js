@@ -13,7 +13,7 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>Job Guarantee</title>
+				<title>Job Guarantee | Home</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
@@ -26,27 +26,21 @@ export default function Home() {
 						<Navbar />
 						<Hero
 							grid
-							button={
-								<ButtonOutline
-									text='Find the right program for you'
-									border='border-white'
-								/>
-							}
 							heading='Build a career you love'
 							text={
-								<p className='text-3xl font-bold tracking-tight mb-4'>
-									Become a Fullstack Web Developer from Scratch.
+								<p className='text-3xl font-normal tracking-tight mb-4'>
+									Become a Fullstack Web Developer <br /> from Scratch.
 								</p>
 							}
 							image={HeroImg}
 							imgWidth={512}
 							imgHeight={520}
+							padding='md:pt-28'
 						/>
 					</div>
 					<Companies />
 					<Programmes />
 					<Curriculum />
-					<FrequentQuestions />
 					<Footer />
 				</section>
 			</main>

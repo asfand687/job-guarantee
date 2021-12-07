@@ -15,7 +15,9 @@ const ButtonOutline = ({
 					full ? 'w-full' : ''
 				} py-2 px-3 inline-flex space-x-1 justify-center items-center rounded-md`}
 			>
-				<span className='tracking-tighter text-lg lg:text-xl'>{text}</span>{' '}
+				<span className='tracking-tighter text-[0.95rem] whitespace-nowrap lg:text-xl'>
+					{text}
+				</span>{' '}
 				{icon ? icon : null}
 			</a>
 		</Link>

@@ -11,7 +11,7 @@ const Programmes = () => {
 				</h2>
 				<p className='pt-6 text-xl tracking-normal leading-7 text-justify md:text-left'>
 					Our program will teach you everything you need to get <br /> your
-					first job in tech in as little as 5 months--even if you <br /> don't
+					first job in tech in as little as 4 months--even if you <br /> don't
 					have any previous experiences.
 				</p>
 				<section className='pt-12 relative md:after:bg-gray-200 after:w-full after:h-80 after:absolute after:top-32 after:right-80 after:z-0'>
@@ -28,7 +28,7 @@ const Programmes = () => {
 								application from scratch.
 							</p>
 							<div>
-								<Link href='#'>
+								<Link href='/WebDevCurriculum'>
 									<a className='bg-gray-300 p-3 rounded-md inline-flex items-center hover:opacity-80'>
 										<span className='tracking-tight'>View Program</span>
 										<FiArrowRight />
@@ -36,7 +36,11 @@ const Programmes = () => {
 								</Link>
 							</div>
 						</article>
-						<Blockquote width='w-full lg:w-2/3 max-w-3xl' small />
+						<Blockquote
+							width='w-full lg:w-2/3 max-w-3xl'
+							href='/WebDevelopmentCourse'
+							small
+						/>
 					</div>
 				</section>
 			</div>

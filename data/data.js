@@ -81,14 +81,14 @@ export const jobGuaranteeGridData = [
 		heading: "Get ready to land a job you'll love",
 		big: true,
 		paragraph:
-			"We know that the job hunt can be the most challenging part of a career changer's journey. That's why our career change prorams include personalized career caoching and job preparation.",
+			"We know that the job hunt can be the most challenging part of a career changer's journey. That's why our career change programs include personalized career coaching and job preparation.",
 	},
 	{
 		id: 2,
 		heading: 'Job guarantee',
 		big: false,
 		paragraph:
-			"Land a job within six months of graduation or we'll refund your full tuition. Learn more about our Job Guarantee.",
+			"Land a job within six months of graduation or we'll refund your full tuition.",
 	},
 	{
 		id: 3,

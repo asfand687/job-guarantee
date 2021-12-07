@@ -5,10 +5,11 @@ import { FiArrowRight } from 'react-icons/fi'
 import Desk from '../public/desk-transparent.png'
 import ButtonOutline from './ButtonOutline'
 
-const Blockquote = ({ width, small }) => {
+const Blockquote = ({ width, small, href = '#' }) => {
 	return small ? (
 		<div
-			className={`bg-white rounded-md shadow-2xl ${width} p-4 md:p-12 border-l-8 z-[5] border-gray-900 block-quote`}
+			className={`bg-white rounded-md shadow-2xl ${width} p-4 md:p-12 border-l-8 z-[5] 
+			border-gray-900 block-quote`}
 		>
 			<article className='flex pb-4 items-center'>
 				<FaRibbon size={'50px'} />
@@ -19,8 +20,10 @@ const Blockquote = ({ width, small }) => {
 				programs come with a guarantee: you'll get a job within 6 months of
 				graduating, or we'll refund the cost of your program.
 			</p>
-			<Link href='#'>
-				<a>Learn More</a>
+			<Link href={href}>
+				<a className='pt-2 inline-block font-semibold text-lg tracking-wide'>
+					Learn More
+				</a>
 			</Link>
 		</div>
 	) : (
@@ -42,6 +45,7 @@ const Blockquote = ({ width, small }) => {
 					text='How does the Job Guarantee work?'
 					icon={<FiArrowRight />}
 					border='border-gray-700'
+					path='/HowItWorks'
 				/>
 			</article>
 			<article className='hidden flex-1 lg:flex items-center h-full'>
