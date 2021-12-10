@@ -46,15 +46,6 @@ const Pricing = () => {
 										<p className='font-light'>Save 5% on your tuition.</p>
 									</div>
 								</div>
-								<div className='text-white pt-6'>
-									<ButtonOutline
-										text='Enroll now'
-										bg='bg-gray-700'
-										icon={<FiArrowRight />}
-										border='border-gray-700'
-										full
-									/>
-								</div>
 							</div>
 						</article>
 						<article className='w-full bg-white rounded border-l-[12px] border-[#5CA2B2] text-gray-700 p-6'>
