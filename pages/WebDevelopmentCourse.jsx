@@ -57,7 +57,7 @@ const WebDevelopmentCourse = () => {
 										</div>
 										<div>
 											<p className='font-semibold'>Learn On-campus</p>
-											<p>without having to quit your job</p>
+											<p>Face-to-Face Learning</p>
 										</div>
 									</article>
 									<article className='flex space-x-4 items-center'>

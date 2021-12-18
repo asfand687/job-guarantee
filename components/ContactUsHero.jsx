@@ -12,13 +12,10 @@ function ContactUsHero() {
 				<article className='text-white tracking-wider space-y-4 flex-1 flex flex-col items-center max-w-[300px]'>
 					<FaMobileAlt size={60} />
 					<h2 className='text-light text-3xl'>Contact Us</h2>
-					<a href='tel:0300-8496861'>+92 0300 8496861</a>
+					<a href='tel:0300-8496861'>+92 347 5521819</a>
 					<a href='tel:0318-4339109'>+92 318 4339109</a>
 				</article>
-				<article className='text-white space-y-4  flex-1 flex flex-col items-center max-w-[300px]'>
-					<FaMapMarkerAlt size={60} />
-					<h2 className='text-light text-3xl tracking-wider'>Come see us</h2>
-				</article>
+
 				<article className='text-white space-y-4 flex-1 flex flex-col items-center max-w-[300px]'>
 					<FaClock size={60} />
 					<h2 className='text-light text-3xl tracking-wider'>24/7 support</h2>
