@@ -13,7 +13,7 @@ const Footer = () => {
 				<div className='flex justify-between flex-col lg:flex-row lg:space-x-16'>
 					<div className='flex flex-col'>
 						<h4 className='text-lg font-bold py-2 uppercase text-gray-500 tracking-wide'>
-							Programs to change your career
+							A Program to change your career
 						</h4>
 						<Link href='/WebDevelopmentCourse'>
 							<a className='text-white font-bold text-lg pb-1'>
@@ -43,6 +43,9 @@ const Footer = () => {
 						</Link>
 						<Link href='/ContactUs'>
 							<a className='text-white font-bold text-lg pb-1'>Contact Us</a>
+						</Link>
+						<Link href='/Faq'>
+							<a className='text-white font-bold text-lg pb-1'>FAQ</a>
 						</Link>
 					</div>
 

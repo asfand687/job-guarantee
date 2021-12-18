@@ -14,7 +14,6 @@ import Member3 from '../public/member-3.png'
 import Member4 from '../public/member-4.png'
 import Member5 from '../public/member-5.png'
 import Member6 from '../public/member-6.png'
-import Link from 'next/link'
 
 export const homeInfoGrid = [
 	{
@@ -158,7 +157,7 @@ export const whyJobGuaranteeGridData = [
 		big: false,
 		textLight: true,
 		paragraph:
-			'With 96% of our eligible alumni getting a tech job within 180 days of graduation at top companies including Google, Apple, and Amazon, you can be confident that taking the program will get you where you want to go—working as a web developer in a job you love.',
+			'With 96% of our eligible alumni getting a tech job within 180 days of graduation at top companies in Pakoistan. You can be confident that taking the program will get you where you want to go—working as a web developer in a job you love.',
 	},
 ]
 
@@ -330,7 +329,7 @@ export const teamData = [
 export const faqData = [
 	{
 		title: 'Are there payment plans available?',
-		content: `Yes, we offer two payment options. You can save 5% of your total tuition by paying it upfront. Alternatively, you can pay a set amount upfront to reserve your place in the program, and the remainder in 3 monthly payments.
+		content: `Yes, we offer two payment options. You can save 5% of your total tuition by paying it upfront. Alternatively, you can pay a set amount upfront to reserve your place in the program, and the remainder in 4 monthly payments.
 		Still not feasible for you? Book a call with a program advisor to see if you’re eligible for a customized payment plan.
 		`,
 	},
@@ -393,23 +392,17 @@ export const faqData = [
 	},
 	{
 		title: 'How long does the program take to complete',
-		content: 'The program can be completed within a 3-month duration. ',
+		content: 'The program can be completed within a 4-month duration. ',
 	},
 	{
 		title: 'Is Web Development is a secure career choice?',
 		content: (
 			<p>
 				Yes, Web Development is a burgeoning field with a large number of
-				opportunites available if you are skilled.
-				<Link href='https://careerfoundry.com/en/blog/web-development/what-does-it-take-to-become-a-web-developer-everything-you-need-to-know-before-getting-started/#is-now-a-good-time-to-become-a-web-developer-2021-update'>
-					<a
-						target='_blank'
-						className='font-bold text-blue-500 uppercase hover:opacity-80'
-					>
-						{' '}
-						Learn More
-					</a>
-				</Link>
+				opportunities available if you are skilled. According to the{' '}
+				<strong>Bureau of Labor Statistics</strong>, employment of Web
+				Developers is projeted to grow 8% from 2019 to 2029 -- much faster than
+				the average for all occupations.
 			</p>
 		),
 	},
