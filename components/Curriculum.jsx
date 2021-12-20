@@ -4,7 +4,7 @@ import Blockquote from './Blockquote'
 
 const Curriculum = () => {
 	return (
-		<section className='py-6 px-3 md:p-12 mt-8 relative after:bg-gray-700 after:w-full after:h-[1100px] lg:after:h-[750px] after:absolute after:top-0 after:left-0 after:z-0'>
+		<section className='py-6 px-4 md:p-12 mt-8 relative after:bg-gray-700 after:w-full after:h-[1100px] lg:after:h-[750px] after:absolute after:top-0 after:left-0 after:z-0'>
 			<div className='w-full lg:w-4/5 mx-auto flex justify-between text-white relative z-[5]'>
 				<article className='flex-1'>
 					<h2 className='text-4xl font-light pb-4 tracking-tight'>
