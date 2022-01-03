@@ -7,7 +7,7 @@ import { SiJest } from 'react-icons/si'
 import { MdOutlineTabletAndroid } from 'react-icons/md'
 import { AiOutlineGithub } from 'react-icons/ai'
 import Image from 'next/image'
-import Programmer from '../public/programmer.jpg'
+import Programmer from '../public/hero-2.jpg'
 
 const WebDevCourseOutline = () => {
 	return (
@@ -127,7 +127,7 @@ const WebDevCourseOutline = () => {
 					</div>
 				</article>
 				<article className='flex flex-col md:flex-row md:space-x-6'>
-					<div className='w-full md:w-[350px] md:h-[450px] '>
+					<div className='w-full md:w-[350px] md:h-[420px] '>
 						<Image
 							className='w-full h-full object-cover'
 							src={Programmer}
