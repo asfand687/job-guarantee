@@ -11,15 +11,14 @@ import { FaChalkboardTeacher } from 'react-icons/fa'
 import { MdWorkOutline } from 'react-icons/md'
 import { MdMonitor } from 'react-icons/md'
 import { FiArrowRight } from 'react-icons/fi'
-import Developer from '../public/dev.jpg'
+import Developer from '../public/discussion-2.jpg'
 import Companies from '../components/Companies'
 import ButtonOutline from '../components/ButtonOutline'
 import TextGrid from '../components/TextGrid'
 import { whyWebDevelopmentGridData } from '../data/data'
 import { whyJobGuaranteeGridData } from '../data/data'
-import Dev from '../public/dev2.jpg'
-import Dev3 from '../public/dev3.jpg'
-import AdmissionCriteria from '../components/AdmissionCriteria'
+import Dev from '../public/dev4.jpg'
+import Dev3 from '../public/dev5.jpg'
 import Pricing from '../components/Pricing'
 
 const WebDevelopmentCourse = () => {
@@ -142,7 +141,7 @@ const WebDevelopmentCourse = () => {
 					containImg
 					reverse
 					bgLight
-					containImg='h-[485px]'
+					containImg='h-[485px] w-[410px]'
 				/>
 				<Pricing />
 				<Footer />

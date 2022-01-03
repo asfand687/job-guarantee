@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar'
 import Programmes from '../components/Programmes'
 import ButtonOutline from '../components/ButtonOutline'
 import FrequentQuestions from '../components/FrequentQuestions'
-import HeroImg from '../public/hero.svg'
+import HeroImg from '../public/hero.png'
 
 export default function Home() {
 	return (
@@ -34,7 +34,7 @@ export default function Home() {
 							}
 							image={HeroImg}
 							imgWidth={512}
-							imgHeight={520}
+							imgHeight={380}
 							padding='md:pt-28'
 						/>
 					</div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const InfoGrid = ({ data }) => {
 	return (
-		<article className='hidden bg-white w-4xl mx-auto p-8 shadow-xl lg:flex lg:relative bottom-20 justify-end space-x-12 rounded-sm'>
+		<article className='hidden bg-white w-4xl mx-auto p-8 shadow-xl lg:flex lg:relative -bottom-8 justify-end space-x-12 rounded-sm'>
 			{data.map((item) => (
 				<div key={data.id} className='flex items-center'>
 					{item.icon}

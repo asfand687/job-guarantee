@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import WebDev from '../public/web-dev.svg'
+import WebDev from '../public/web-dev.jpg'
 import Blockquote from './Blockquote'
 
 const Curriculum = () => {
@@ -16,7 +16,7 @@ const Curriculum = () => {
 					<h3 className='text-2xl font-bold tracking-wide py-3'>
 						A curriculum created in-house
 					</h3>
-					<p className='pb-2 pr-4'>
+					<p className='pb-2 text-justify md:pr-4'>
 						Authored and updated by industry-leading experts and structured by
 						experienced instructional designers, our superior curriculum ensures
 						that you learn the skills that employers need.
@@ -24,7 +24,7 @@ const Curriculum = () => {
 					<h3 className='text-2xl font-bold tracking-wide py-3'>
 						An intuitive learning platform
 					</h3>
-					<p className='pb-2 pr-4'>
+					<p className='pb-2 text-justify md:pr-4'>
 						Enjoy a seamless learning experience. Connect with your tutor,
 						mentor and fellow students, submit your work and receive feedback,
 						watch video tutorials, and plan out your study schedule with the
@@ -33,14 +33,19 @@ const Curriculum = () => {
 					<h3 className='text-2xl font-bold tracking-wide py-3'>
 						Exclusive access to all our career-change programs
 					</h3>
-					<p className='pb-2 pr-4 mb-12'>
+					<p className='pb-2 text-justify md:pr-4 mb-12'>
 						Request free, read-only access to our other career-change programs,
 						enjoy free or discounted access to popular industry tools, and
 						receive a certificate on completion of your program.
 					</p>
 				</article>
-				<article className='hidden w-1/2 h-full lg:flex justify-end items-center'>
-					<Image src={WebDev} alt='Web Developer' width={500} />
+				<article className='hidden w-1/2 rounded lg:flex justify-end items-center'>
+					<Image
+						className='object-cover'
+						src={WebDev}
+						alt='Web Developer'
+						width={500}
+					/>
 				</article>
 			</div>
 			<Blockquote

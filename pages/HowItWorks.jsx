@@ -4,13 +4,13 @@ import Image from 'next/image'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
-import Programmer from '../public/programmer.jpg'
+import Programmer from '../public/programmer-2.jpg'
 import Timeline from '../components/Timeline'
 import OurCurriculum from '../components/OurCurriculum'
 import TextGrid from '../components/TextGrid'
 import RightForYou from '../components/RightForYou'
 import { jobGuaranteeGridData } from '../data/data'
-import Discussion from '../public/discussion.jpg'
+import Discussion from '../public/discussion-4.jpg'
 
 const HowItWorks = () => {
 	return (
@@ -34,8 +34,8 @@ const HowItWorks = () => {
 								</p>
 							}
 							image={Programmer}
-							imgWidth={530}
-							imgHeight={570}
+							imgWidth={500}
+							imgHeight={500}
 							imgRounded
 							padding='md:pt-12'
 						/>
