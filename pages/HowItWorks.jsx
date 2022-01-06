@@ -4,13 +4,13 @@ import Image from 'next/image'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
-import Programmer from '../public/programmer-2.jpg'
+import Programmer from '../public/dev7.jpg'
 import Timeline from '../components/Timeline'
 import OurCurriculum from '../components/OurCurriculum'
 import TextGrid from '../components/TextGrid'
 import RightForYou from '../components/RightForYou'
 import { jobGuaranteeGridData } from '../data/data'
-import Discussion from '../public/discussion-4.jpg'
+import Discussion from '../public/discussion-5.jpg'
 
 const HowItWorks = () => {
 	return (
@@ -34,8 +34,6 @@ const HowItWorks = () => {
 								</p>
 							}
 							image={Programmer}
-							imgWidth={500}
-							imgHeight={500}
 							imgRounded
 							padding='md:pt-12'
 						/>
@@ -44,7 +42,9 @@ const HowItWorks = () => {
 					<OurCurriculum />
 					<TextGrid
 						gridTextData={jobGuaranteeGridData}
-						img={<Image className='h-full flex-1' src={Discussion} />}
+						img={
+							<Image className='h-full flex-1 object-cover' src={Discussion} />
+						}
 						small
 					/>
 					<RightForYou removeContact />

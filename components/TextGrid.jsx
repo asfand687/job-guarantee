@@ -12,14 +12,14 @@ const TextGrid = ({
 	return (
 		<section className='w-full bg-white py-16 border-0'>
 			<div
-				className={`w-full h-full shadow-xl ${
+				className={`w-full  shadow-xl ${
 					small ? 'max-w-[1040px]' : 'max-w-[1200px]'
 				} mx-auto ${
 					bgLight ? 'bg-gray-200 text-gray-700' : 'bg-gray-600 text-white'
 				}  flex ${reverse ? 'flex-row-reverse' : ''}`}
 			>
 				<article
-					className={`hidden w-2/5 lg:flex items-stretch h-full ${
+					className={`hidden w-2/5 lg:flex items-stretch  ${
 						containImg ? containImg : ''
 					}`}
 				>

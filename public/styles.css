@@ -24,6 +24,17 @@ body {
 	background-size: cover;
 }
 
+.faq-hero {
+	background-image: linear-gradient(
+			to right,
+			rgba(0, 0, 0, 0.65),
+			rgba(0, 0, 0, 0.74)
+		),
+		url('../public/faq2.jpg');
+	background-size: cover;
+	background-position: center right;
+}
+
 .narrow-img.alt {
 	background-image: linear-gradient(
 			to right,

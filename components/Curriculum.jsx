@@ -45,6 +45,7 @@ const Curriculum = () => {
 						src={WebDev}
 						alt='Web Developer'
 						width={500}
+						height={400}
 					/>
 				</article>
 			</div>

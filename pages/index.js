@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar'
 import Programmes from '../components/Programmes'
 import ButtonOutline from '../components/ButtonOutline'
 import FrequentQuestions from '../components/FrequentQuestions'
-import HeroImg from '../public/hero.png'
+import HeroImg from '../public/programmer-2.jpg'
 
 export default function Home() {
 	return (
@@ -32,9 +32,10 @@ export default function Home() {
 									Become a Fullstack Web Developer <br /> from Scratch.
 								</p>
 							}
+							imgRounded
 							image={HeroImg}
-							imgWidth={512}
-							imgHeight={380}
+							imgWidth={612}
+							imgHeight={400}
 							padding='md:pt-28'
 						/>
 					</div>

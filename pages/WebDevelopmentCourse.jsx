@@ -11,14 +11,14 @@ import { FaChalkboardTeacher } from 'react-icons/fa'
 import { MdWorkOutline } from 'react-icons/md'
 import { MdMonitor } from 'react-icons/md'
 import { FiArrowRight } from 'react-icons/fi'
-import Developer from '../public/discussion-2.jpg'
+import Developer from '../public/dev7.jpg'
 import Companies from '../components/Companies'
 import ButtonOutline from '../components/ButtonOutline'
 import TextGrid from '../components/TextGrid'
 import { whyWebDevelopmentGridData } from '../data/data'
 import { whyJobGuaranteeGridData } from '../data/data'
-import Dev from '../public/dev4.jpg'
-import Dev3 from '../public/dev5.jpg'
+import Dev from '../public/dev8.jpg'
+import Dev3 from '../public/dev9.jpg'
 import Pricing from '../components/Pricing'
 
 const WebDevelopmentCourse = () => {
@@ -73,7 +73,7 @@ const WebDevelopmentCourse = () => {
 							<article className='flex-1'>
 								<div className='flex justify-end pb-8'>
 									<Image
-										className='object-cover rounded-md'
+										className='rounded-md'
 										src={Developer}
 										alt='Developer'
 										width={550}
