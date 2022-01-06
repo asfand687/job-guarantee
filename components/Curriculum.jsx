@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import WebDev from '../public/web-dev.jpg'
+import WebDev from '../public/programmer.jpg'
 import Blockquote from './Blockquote'
 
 const Curriculum = () => {
