@@ -1,6 +1,6 @@
 import { FaMobileAlt, FaClock, FaMapMarkerAlt } from 'react-icons/fa'
 import Image from 'next/image'
-import ContactUs from '../public/contactus.svg'
+import ContactUs from '../public/contact1.jpg'
 
 function ContactUsHero() {
 	return (
@@ -103,7 +103,13 @@ function ContactUsHero() {
 						</div>
 					</article>
 					<article className='order-1 lg:order-2'>
-						<Image src={ContactUs} alt='Contact Us' width={400} height={500} />
+						<Image
+							src={ContactUs}
+							className='rounded'
+							alt='Contact Us'
+							width={450}
+							height={400}
+						/>
 					</article>
 				</div>
 			</div>

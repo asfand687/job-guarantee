@@ -31,21 +31,21 @@ const Footer = () => {
 						<Link href='/HowItWorks'>
 							<a className='text-white font-bold text-lg pb-1'>How it Works</a>
 						</Link>
-						<Link href='/WebDevelopmentCourse'>
-							<a className='text-white font-bold text-lg pb-1'>
-								Web Development Course
-							</a>
-						</Link>
 						<Link href='/WebDevCurriculum'>
 							<a className='text-white font-bold text-lg pb-1'>
 								Course Curriculum
 							</a>
 						</Link>
+						<Link href='/Faq'>
+							<a className='text-white font-bold text-lg pb-1'>FAQ</a>
+						</Link>
 						<Link href='/ContactUs'>
 							<a className='text-white font-bold text-lg pb-1'>Contact Us</a>
 						</Link>
-						<Link href='/Faq'>
-							<a className='text-white font-bold text-lg pb-1'>FAQ</a>
+						<Link href='/WebDevelopmentCourse'>
+							<a className='text-white font-bold text-lg pb-1'>
+								Web Development Course
+							</a>
 						</Link>
 					</div>
 
