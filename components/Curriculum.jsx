@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import WebDev from '../public/web-dev.jpg'
+import WebDev from '../public/programmer.jpg'
 import Blockquote from './Blockquote'
 
 const Curriculum = () => {
@@ -31,7 +31,7 @@ const Curriculum = () => {
 						help of our time management features.
 					</p>
 					<h3 className='text-2xl font-bold tracking-wide py-3'>
-						Exclusive access to all our career-change programs
+						Exclusive Access to all our career-change programs
 					</h3>
 					<p className='pb-2 text-justify md:pr-4 mb-12'>
 						Request free, read-only access to our other career-change programs,
