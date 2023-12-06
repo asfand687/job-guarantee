@@ -10,7 +10,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
-    "react-multi-carousel": "^2.6.5"
+    "react-multi-carousel": "^2.6.5",
+    "gaxios": "6.1.1",
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
